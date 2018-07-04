@@ -15,11 +15,11 @@ MKOnlineMusicPlayer 是一款开源的基于 `Meting` 的在线音乐播放器�
 
 ### 相关链接
 -----
-**在线演示** [http://lab.mkblog.cn/music/](http://lab.mkblog.cn/music/)
+**在线演示** [http://test.zwblog.cn/music/](http://test.zwblog.cn/music/)
 
 **详细介绍** [http://mkblog.cn/1060/](http://mkblog.cn/1060/)
 
-**GitHub** [https://github.com/mengkunsoft/MKOnlineMusicPlayer](https://github.com/mengkunsoft/MKOnlineMusicPlayer)
+**GitHub** [https://github.com/zwchn/zaixianmusic]([https://github.com/zwchn/zaixianmusic)
 
 ### 注意事项
 -----
