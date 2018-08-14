@@ -19,7 +19,7 @@ MKOnlineMusicPlayer 是一款开源的基于 `Meting` 的在线音乐播放器�
 
 **详细介绍** [http://mkblog.cn/1060/](http://mkblog.cn/1060/)
 
-**GitHub** [https://github.com/zwchn/zaixianmusic]([https://github.com/zwchn/zaixianmusic)
+**GitHub** [https://github.com/zwchn/zaixianmusic](https://github.com/zwchn/zaixianmusic)
 
 ### 注意事项
 -----
