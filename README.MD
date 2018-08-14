@@ -44,21 +44,6 @@ php 5.4+, curl_exec, file_get_contents, json_decode, openssl_encrypt
 [请前往 wiki 查阅](https://github.com/mengkunsoft/MKOnlineMusicPlayer/wiki)
 `遇到问题请详细阅读以上 wiki，已经进行解答的问题将不再回复！`
 
-### 开发计划
------
-- 歌曲音质切换功能
-- IOS 歌曲播放问题
-- 美化歌曲搜索框
-
-### 打赏
------
-- 解决上面这些问题，需要花费很多时间与精力。支持项目继续完善下去，你也可以贡献一份力量！
-- 有了打赏，也就会有更新的动力 : )
-
-   ![](https://ws3.sinaimg.cn/large/006srDtYly1ffqy973ijwj30hk05atam.jpg)
-
-### 更新日志
------
 #### v2.41 `2018/3/13`
 - 修复 IE 下播放键错位的 BUG
 - 修改默认背景为黑色
@@ -100,68 +85,6 @@ php 5.4+, curl_exec, file_get_contents, json_decode, openssl_encrypt
 - 修复搜索分页的 BUG
 - 去除超时检测
 
-#### v2.21 `2017/5/19`
-- 临时修复 API 失效问题
-- 新增歌曲超时检测，播放超时则自动播放下一首
-- 新增设置数据传输方式(GET/POST)
-- (这是一个临时版本，虽然解决了一部分API失效的问题，但是还是存在一些问题。剩下的问题将在之后的 v2.3 正式版中解决)
-
-#### v2.2 `2017/3/26`
-- 用户歌单获取时新增加载中动画及遮罩，防止重复加载
-- 修复中等屏幕下鼠标滑过tab边框消失的 BUG
-- 修复某些情况下第一句歌词无法渲染的 BUG
-- 修复在IE9下音乐无法播放的 BUG
-- 更换背景展现方式，整体界面更美观
-- 正在播放和播放历史列表支持一键清空
-- 新增图片加载失败时替换处理
-- 新增小屏幕下为当前显示的tab添加下划线
-- 新增favicon小图标
-- 新增歌曲播放时进度条小点闪烁效果
-- 优化后台数据获取失败时弹出提示
-- 其它的一些细节优化
-
-#### v2.1 `2017/3/20`
-- 紧急修复部分浏览器下切换歌曲造成无限播放失败循环的 BUG
-- 新增点击未加载完的播放列表弹出提示
-- 新增搜索时弹出加载中动画
-- 切换歌曲后进度条自动复位
-- 优化歌曲外链显示方式，方便复制
-- 优化封面图像加载大小
-- 新增无歌词、歌词加载中提示
-- 优化歌词展现方式
-
-#### v2.0 Beta `2017/3/18`
-- 所有代码均推翻重写，前端界面全新改版
-- 完善对手机端的适配，新支持 IE9~IE11 浏览器
-- 修复 IE11 下点击下载歌曲名字乱码的 BUG
-- 新增“正在播放”、“播放历史”列表功能
-- 新增后台自定义播放列表功能，支持多种列表定义模式
-- 新增本地记录用户设置及播放列表功能
-- 进度条支持响应点击事件
-
-#### v1.3 `未发布`
-- 新增同步用户歌单功能
-- 修复一些已知 BUG
-(因逻辑过于混乱，代码过于庞杂，此版本废弃)
-
-#### v1.2 `未发布`
-- 这个版本的存档神秘失踪，我也不记得有哪些改变。。
-
-#### v1.1 `2016/10/27`
-- 修复宽屏下背景覆盖缺失的 BUG
-- 修复打开页面后直接点击播放无效的 BUG
-- 修复EDGE浏览器点击下载时文件名为乱码的 BUG
-- 优化播放已下架的音乐，会给出无法播放的提示
-- 修复歌词获取失败时无法清除原有歌词的 BUG
-- 暂停播放时停止歌词滚动，方便复制歌词
-- 优化搜索内容为空时弹出提示
-
-#### v1.0 `2016/10/25`
-- 完成搜索并播放音乐功能
-- 完成一键提取音乐外链功能
-- 完成音乐下载功能
-- 完成显示歌曲封面、歌词功能
-
 
 ### 开发文档[待完善]
 -----
@@ -189,28 +112,4 @@ php 5.4+, curl_exec, file_get_contents, json_decode, openssl_encrypt
 | rem.mainList | 歌曲列表容器操作对象 |
 | rem.isMobile | 是否是手机浏览 |
 
-### 致谢
------
-#### 特别感谢 `@metowolf`、`网易云音乐`、`QQ音乐`、`虾米`、`酷狗`、`百度音乐`
 
-#### 采用的开源模块
-- **Jquery**：js主流开发框架 [http://jquery.com/](http://jquery.com/)
-- **Meting**：一个高效的多平台音乐 API 框架 [https://github.com/metowolf/Meting](https://github.com/metowolf/Meting)
-- **layer**：一款强大的web弹层组件 [http://layer.layui.com/](http://layer.layui.com/)
-- **mCustomScrollbar**：jQuery自定义滚动条样式插件 [http://manos.malihu.gr/jquery-custom-content-scroller/](http://manos.malihu.gr/jquery-custom-content-scroller/)
-- **background-blur**：跨浏览器磨砂效果背景图片模糊特效插件 [https://msurguy.github.io/background-blur/](https://msurguy.github.io/background-blur/)
-- **Let's Kill IE6**：消灭IE [http://overtrue.me](http://overtrue.me)
-
-##### 在开发过程中，还参照了很多开源 html 播放器的相关代码，在此一并向他们表示感谢！
-
-### 耻辱柱
------
-恭喜下列个人或单位永久入驻耻辱柱！
-
-#### 绿岛资源站 [http://www.ldzy.cc/]
-原因：未经允许，发布到淘宝售卖(https://item.taobao.com/item.htm?id=560064138441 ) 截图：https://t.cn/RlNRmi5
-
-#### 68喜论坛 [http://www.68xi.com/]
-原因：未经允许，删改版权信息(http://music.68xi.com/ )，并发布到淘宝售卖(https://item.taobao.com/item.htm?id=547226809330 )
-
-`奉劝某些“人”保留住做人的最基本底线，遵守开源协议，并引以为戒`
